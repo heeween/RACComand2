@@ -87,13 +87,16 @@
     }
     // 下一步按钮 以及弹窗的确认按钮 和viewmodel绑定
     {
-        self.confirmView.confirmButton.rac_command = self.viewModel.nextCmd;
         RAC(self.viewModel,errorStrings) = self.viewModel.errorStringSignal;
     }
     // 根据响应事件信号值合并转为控制器操作信号 并且直接绑定到控制器的对象方法
     {
+        self.confirmView.confirmButton.rac_command = self.viewModel.nextCmd;
         [self rac_liftSelector:@selector(showAlert:) withSignals:[[self.viewModel.nextCmd executionSignals] switchToLatest], nil];
         [self rac_liftSelector:@selector(showError:) withSignals:self.viewModel.nextCmd.errors, nil];
+    }
+    // 绑定弹窗的成功和失败信号
+    {
         [self rac_liftSelector:@selector(postParamSuccess:) withSignals:[[self.viewModel.confirmCmd executionSignals] switchToLatest], nil];
         [self rac_liftSelector:@selector(postParamFailure:) withSignals:self.viewModel.confirmCmd.errors, nil];
     }

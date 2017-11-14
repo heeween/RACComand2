@@ -134,8 +134,8 @@
 		9C7C89671FBA8973001A57FF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				9C7C89681FBA8973001A57FF /* GBInvoiceContentViewModel.m */,
 				9C7C89691FBA8973001A57FF /* GBInvoiceContentViewModel.h */,
+				9C7C89681FBA8973001A57FF /* GBInvoiceContentViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
