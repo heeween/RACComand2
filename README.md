@@ -14,8 +14,11 @@
 # 示例项目地址
 github: https://github.com/heeween/RACComand2.git
 
+[Reactivate用法示例1简书介绍](http://www.jianshu.com/p/4301ce6af1f4)
+
+[Reactivate2用法示例2简书介绍](http://www.jianshu.com/p/cf34dedd76f6)
+
 用到的城市选择器属于[Jonhory](http://www.jianshu.com/u/fd320d65dbd8)
-[简书介绍](http://www.jianshu.com/p/4301ce6af1f4)
 
 ![2017-11-14 13.58.33.gif](http://upload-images.jianshu.io/upload_images/661867-3e91f68506626532.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
