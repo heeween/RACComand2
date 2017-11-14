@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41806C0E7E6253073784DB10 /* libPods-RACcomand2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3E3ED8E96FB0D126361861 /* libPods-RACcomand2.a */; };
+		9C7C89521FBA8920001A57FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89511FBA8920001A57FF /* AppDelegate.m */; };
+		9C7C89551FBA8920001A57FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89541FBA8920001A57FF /* ViewController.m */; };
+		9C7C895A1FBA8920001A57FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C7C89591FBA8920001A57FF /* Assets.xcassets */; };
+		9C7C89601FBA8920001A57FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C895F1FBA8920001A57FF /* main.m */; };
+		9C7C898F1FBA8973001A57FF /* GBInvoiceContentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89681FBA8973001A57FF /* GBInvoiceContentViewModel.m */; };
+		9C7C89901FBA8973001A57FF /* GBInvoiceEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C896C1FBA8973001A57FF /* GBInvoiceEntity.m */; };
+		9C7C89911FBA8973001A57FF /* GBInvoiceSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C896F1FBA8973001A57FF /* GBInvoiceSourceView.m */; };
+		9C7C89921FBA8973001A57FF /* GBInvoiceAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89711FBA8973001A57FF /* GBInvoiceAddressView.m */; };
+		9C7C89931FBA8973001A57FF /* GBInvoiceConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89751FBA8973001A57FF /* GBInvoiceConfirmView.m */; };
+		9C7C89941FBA8973001A57FF /* GBInvoiceContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89771FBA8973001A57FF /* GBInvoiceContentView.m */; };
+		9C7C89951FBA8973001A57FF /* GBInputItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89781FBA8973001A57FF /* GBInputItem.m */; };
+		9C7C89961FBA8973001A57FF /* GBSelectItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C897A1FBA8973001A57FF /* GBSelectItem.m */; };
+		9C7C89971FBA8973001A57FF /* GBTextItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C897B1FBA8973001A57FF /* GBTextItem.m */; };
+		9C7C89981FBA8973001A57FF /* GBInvoiceContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C897E1FBA8973001A57FF /* GBInvoiceContentController.m */; };
+		9C7C89991FBA8973001A57FF /* address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9C7C89811FBA8973001A57FF /* address.txt */; };
+		9C7C899A1FBA8973001A57FF /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89821FBA8973001A57FF /* City.m */; };
+		9C7C899B1FBA8973001A57FF /* Province.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89861FBA8973001A57FF /* Province.m */; };
+		9C7C899C1FBA8973001A57FF /* AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C89871FBA8973001A57FF /* AddressPickerView.m */; };
+		9C7C89A01FBAB7F4001A57FF /* GBInvoiceAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7C899E1FBAB7F4001A57FF /* GBInvoiceAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A403621BF0EC956D7BD73B6 /* Pods-RACcomand2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACcomand2.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACcomand2/Pods-RACcomand2.release.xcconfig"; sourceTree = "<group>"; };
+		739139603899C9C380D02BCB /* Pods-RACcomand2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACcomand2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACcomand2/Pods-RACcomand2.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3E3ED8E96FB0D126361861 /* libPods-RACcomand2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACcomand2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7C894D1FBA8920001A57FF /* RACcomand2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACcomand2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7C89501FBA8920001A57FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C7C89511FBA8920001A57FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C7C89531FBA8920001A57FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C7C89541FBA8920001A57FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C7C89591FBA8920001A57FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C7C895E1FBA8920001A57FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7C895F1FBA8920001A57FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C7C89681FBA8973001A57FF /* GBInvoiceContentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceContentViewModel.m; sourceTree = "<group>"; };
+		9C7C89691FBA8973001A57FF /* GBInvoiceContentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceContentViewModel.h; sourceTree = "<group>"; };
+		9C7C896B1FBA8973001A57FF /* GBInvoiceEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceEntity.h; sourceTree = "<group>"; };
+		9C7C896C1FBA8973001A57FF /* GBInvoiceEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceEntity.m; sourceTree = "<group>"; };
+		9C7C896D1FBA8973001A57FF /* GBInvoiceEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceEnum.h; sourceTree = "<group>"; };
+		9C7C896F1FBA8973001A57FF /* GBInvoiceSourceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceSourceView.m; sourceTree = "<group>"; };
+		9C7C89701FBA8973001A57FF /* GBInputItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInputItem.h; sourceTree = "<group>"; };
+		9C7C89711FBA8973001A57FF /* GBInvoiceAddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceAddressView.m; sourceTree = "<group>"; };
+		9C7C89721FBA8973001A57FF /* GBInvoiceContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceContentView.h; sourceTree = "<group>"; };
+		9C7C89731FBA8973001A57FF /* GBTextItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBTextItem.h; sourceTree = "<group>"; };
+		9C7C89741FBA8973001A57FF /* GBSelectItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSelectItem.h; sourceTree = "<group>"; };
+		9C7C89751FBA8973001A57FF /* GBInvoiceConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceConfirmView.m; sourceTree = "<group>"; };
+		9C7C89761FBA8973001A57FF /* GBInvoiceAddressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceAddressView.h; sourceTree = "<group>"; };
+		9C7C89771FBA8973001A57FF /* GBInvoiceContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceContentView.m; sourceTree = "<group>"; };
+		9C7C89781FBA8973001A57FF /* GBInputItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInputItem.m; sourceTree = "<group>"; };
+		9C7C89791FBA8973001A57FF /* GBInvoiceSourceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceSourceView.h; sourceTree = "<group>"; };
+		9C7C897A1FBA8973001A57FF /* GBSelectItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSelectItem.m; sourceTree = "<group>"; };
+		9C7C897B1FBA8973001A57FF /* GBTextItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBTextItem.m; sourceTree = "<group>"; };
+		9C7C897C1FBA8973001A57FF /* GBInvoiceConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceConfirmView.h; sourceTree = "<group>"; };
+		9C7C897E1FBA8973001A57FF /* GBInvoiceContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceContentController.m; sourceTree = "<group>"; };
+		9C7C897F1FBA8973001A57FF /* GBInvoiceContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceContentController.h; sourceTree = "<group>"; };
+		9C7C89811FBA8973001A57FF /* address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address.txt; sourceTree = "<group>"; };
+		9C7C89821FBA8973001A57FF /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		9C7C89831FBA8973001A57FF /* AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickerView.h; sourceTree = "<group>"; };
+		9C7C89841FBA8973001A57FF /* Province.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Province.h; sourceTree = "<group>"; };
+		9C7C89851FBA8973001A57FF /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		9C7C89861FBA8973001A57FF /* Province.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Province.m; sourceTree = "<group>"; };
+		9C7C89871FBA8973001A57FF /* AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickerView.m; sourceTree = "<group>"; };
+		9C7C899E1FBAB7F4001A57FF /* GBInvoiceAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInvoiceAlert.m; sourceTree = "<group>"; };
+		9C7C899F1FBAB7F4001A57FF /* GBInvoiceAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInvoiceAlert.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C7C894A1FBA8920001A57FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41806C0E7E6253073784DB10 /* libPods-RACcomand2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C7C89441FBA8920001A57FF = {
+			isa = PBXGroup;
+			children = (
+				9C7C894F1FBA8920001A57FF /* RACcomand2 */,
+				9C7C894E1FBA8920001A57FF /* Products */,
+				CFE9E8223820A7158285E4E1 /* Pods */,
+				F48444D56C46B7E035AA14D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C7C894E1FBA8920001A57FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C894D1FBA8920001A57FF /* RACcomand2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C7C894F1FBA8920001A57FF /* RACcomand2 */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C89801FBA8973001A57FF /* AddressPickerView */,
+				9C7C89881FBA8973001A57FF /* invoiceAlert */,
+				9C7C89661FBA8973001A57FF /* invoiceContent */,
+				9C7C89501FBA8920001A57FF /* AppDelegate.h */,
+				9C7C89511FBA8920001A57FF /* AppDelegate.m */,
+				9C7C89531FBA8920001A57FF /* ViewController.h */,
+				9C7C89541FBA8920001A57FF /* ViewController.m */,
+				9C7C89591FBA8920001A57FF /* Assets.xcassets */,
+				9C7C895E1FBA8920001A57FF /* Info.plist */,
+				9C7C895F1FBA8920001A57FF /* main.m */,
+			);
+			path = RACcomand2;
+			sourceTree = "<group>";
+		};
+		9C7C89661FBA8973001A57FF /* invoiceContent */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C89671FBA8973001A57FF /* ViewModel */,
+				9C7C896A1FBA8973001A57FF /* Entity */,
+				9C7C896E1FBA8973001A57FF /* View */,
+				9C7C897D1FBA8973001A57FF /* ViewController */,
+			);
+			path = invoiceContent;
+			sourceTree = "<group>";
+		};
+		9C7C89671FBA8973001A57FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C89681FBA8973001A57FF /* GBInvoiceContentViewModel.m */,
+				9C7C89691FBA8973001A57FF /* GBInvoiceContentViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C7C896A1FBA8973001A57FF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C896B1FBA8973001A57FF /* GBInvoiceEntity.h */,
+				9C7C896C1FBA8973001A57FF /* GBInvoiceEntity.m */,
+				9C7C896D1FBA8973001A57FF /* GBInvoiceEnum.h */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9C7C896E1FBA8973001A57FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C896F1FBA8973001A57FF /* GBInvoiceSourceView.m */,
+				9C7C89701FBA8973001A57FF /* GBInputItem.h */,
+				9C7C89711FBA8973001A57FF /* GBInvoiceAddressView.m */,
+				9C7C89721FBA8973001A57FF /* GBInvoiceContentView.h */,
+				9C7C89731FBA8973001A57FF /* GBTextItem.h */,
+				9C7C89741FBA8973001A57FF /* GBSelectItem.h */,
+				9C7C89751FBA8973001A57FF /* GBInvoiceConfirmView.m */,
+				9C7C89761FBA8973001A57FF /* GBInvoiceAddressView.h */,
+				9C7C89771FBA8973001A57FF /* GBInvoiceContentView.m */,
+				9C7C89781FBA8973001A57FF /* GBInputItem.m */,
+				9C7C89791FBA8973001A57FF /* GBInvoiceSourceView.h */,
+				9C7C897A1FBA8973001A57FF /* GBSelectItem.m */,
+				9C7C897B1FBA8973001A57FF /* GBTextItem.m */,
+				9C7C897C1FBA8973001A57FF /* GBInvoiceConfirmView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C7C897D1FBA8973001A57FF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C897F1FBA8973001A57FF /* GBInvoiceContentController.h */,
+				9C7C897E1FBA8973001A57FF /* GBInvoiceContentController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9C7C89801FBA8973001A57FF /* AddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C89811FBA8973001A57FF /* address.txt */,
+				9C7C89821FBA8973001A57FF /* City.m */,
+				9C7C89831FBA8973001A57FF /* AddressPickerView.h */,
+				9C7C89841FBA8973001A57FF /* Province.h */,
+				9C7C89851FBA8973001A57FF /* City.h */,
+				9C7C89861FBA8973001A57FF /* Province.m */,
+				9C7C89871FBA8973001A57FF /* AddressPickerView.m */,
+			);
+			path = AddressPickerView;
+			sourceTree = "<group>";
+		};
+		9C7C89881FBA8973001A57FF /* invoiceAlert */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C899F1FBAB7F4001A57FF /* GBInvoiceAlert.h */,
+				9C7C899E1FBAB7F4001A57FF /* GBInvoiceAlert.m */,
+			);
+			path = invoiceAlert;
+			sourceTree = "<group>";
+		};
+		CFE9E8223820A7158285E4E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				739139603899C9C380D02BCB /* Pods-RACcomand2.debug.xcconfig */,
+				2A403621BF0EC956D7BD73B6 /* Pods-RACcomand2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F48444D56C46B7E035AA14D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B3E3ED8E96FB0D126361861 /* libPods-RACcomand2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C7C894C1FBA8920001A57FF /* RACcomand2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7C89631FBA8920001A57FF /* Build configuration list for PBXNativeTarget "RACcomand2" */;
+			buildPhases = (
+				BE6D6A633AF6DA2DAB47205D /* [CP] Check Pods Manifest.lock */,
+				9C7C89491FBA8920001A57FF /* Sources */,
+				9C7C894A1FBA8920001A57FF /* Frameworks */,
+				9C7C894B1FBA8920001A57FF /* Resources */,
+				CE1E96C976E6E3CBB8924384 /* [CP] Embed Pods Frameworks */,
+				D1E61043F39BE60A9CABA5C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RACcomand2;
+			productName = RACcomand2;
+			productReference = 9C7C894D1FBA8920001A57FF /* RACcomand2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C7C89451FBA8920001A57FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = caocao;
+				TargetAttributes = {
+					9C7C894C1FBA8920001A57FF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C7C89481FBA8920001A57FF /* Build configuration list for PBXProject "RACcomand2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C7C89441FBA8920001A57FF;
+			productRefGroup = 9C7C894E1FBA8920001A57FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C7C894C1FBA8920001A57FF /* RACcomand2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C7C894B1FBA8920001A57FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7C895A1FBA8920001A57FF /* Assets.xcassets in Resources */,
+				9C7C89991FBA8973001A57FF /* address.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE6D6A633AF6DA2DAB47205D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RACcomand2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1E96C976E6E3CBB8924384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACcomand2/Pods-RACcomand2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E61043F39BE60A9CABA5C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RACcomand2/Pods-RACcomand2-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RACcomand2/Pods-RACcomand2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C7C89491FBA8920001A57FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7C89961FBA8973001A57FF /* GBSelectItem.m in Sources */,
+				9C7C89931FBA8973001A57FF /* GBInvoiceConfirmView.m in Sources */,
+				9C7C89551FBA8920001A57FF /* ViewController.m in Sources */,
+				9C7C89951FBA8973001A57FF /* GBInputItem.m in Sources */,
+				9C7C89981FBA8973001A57FF /* GBInvoiceContentController.m in Sources */,
+				9C7C89921FBA8973001A57FF /* GBInvoiceAddressView.m in Sources */,
+				9C7C89601FBA8920001A57FF /* main.m in Sources */,
+				9C7C89911FBA8973001A57FF /* GBInvoiceSourceView.m in Sources */,
+				9C7C89521FBA8920001A57FF /* AppDelegate.m in Sources */,
+				9C7C89971FBA8973001A57FF /* GBTextItem.m in Sources */,
+				9C7C899B1FBA8973001A57FF /* Province.m in Sources */,
+				9C7C89901FBA8973001A57FF /* GBInvoiceEntity.m in Sources */,
+				9C7C89941FBA8973001A57FF /* GBInvoiceContentView.m in Sources */,
+				9C7C899C1FBA8973001A57FF /* AddressPickerView.m in Sources */,
+				9C7C899A1FBA8973001A57FF /* City.m in Sources */,
+				9C7C898F1FBA8973001A57FF /* GBInvoiceContentViewModel.m in Sources */,
+				9C7C89A01FBAB7F4001A57FF /* GBInvoiceAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C7C89611FBA8920001A57FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C7C89621FBA8920001A57FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C7C89641FBA8920001A57FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739139603899C9C380D02BCB /* Pods-RACcomand2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E9JBA6XT3;
+				INFOPLIST_FILE = RACcomand2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caocao.RACcomand2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C7C89651FBA8920001A57FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A403621BF0EC956D7BD73B6 /* Pods-RACcomand2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5E9JBA6XT3;
+				INFOPLIST_FILE = RACcomand2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caocao.RACcomand2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C7C89481FBA8920001A57FF /* Build configuration list for PBXProject "RACcomand2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7C89611FBA8920001A57FF /* Debug */,
+				9C7C89621FBA8920001A57FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7C89631FBA8920001A57FF /* Build configuration list for PBXNativeTarget "RACcomand2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C7C89641FBA8920001A57FF /* Debug */,
+				9C7C89651FBA8920001A57FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C7C89451FBA8920001A57FF /* Project object */;
+}
